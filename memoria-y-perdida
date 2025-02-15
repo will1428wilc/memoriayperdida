@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memoria y Pérdida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: url('desert-hero.jpg') no-repeat center center/cover;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        header h1 {
+            font-size: 3rem;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+        }
+        section {
+            padding: 40px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .button {
+            display: inline-block;
+            background: #d88c5c;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        footer {
+            background: #333;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Memoria y Pérdida</h1>
+        <p>A Documentary on Migration, Trauma, and Survival</p>
+    </header>
+    <section>
+        <h2>About the Film</h2>
+        <p><em>Memoria y Pérdida</em> follows the journey of migrants crossing the U.S.-Mexico border, exploring the trauma, resilience, and humanitarian efforts of groups like Border Angels.</p>
+    </section>
+    <section>
+        <h2>Visual Style</h2>
+        <p>Using poetic imagery, observational cinematography, and archival footage, the film immerses viewers in the emotional and physical landscape of migration.</p>
+    </section>
+    <section>
+        <h2>Director’s Statement</h2>
+        <p>This film is a deeply personal exploration of migration, inspired by my mother’s journey and the stories of those who continue to cross these dangerous landscapes.</p>
+    </section>
+    <section>
+        <h2>Get Involved</h2>
+        <p>Support humanitarian efforts and learn more about organizations like Border Angels.</p>
+        <a href="https://www.borderangels.org/" target="_blank" class="button">Learn More</a>
+    </section>
+    <footer>
+        <p>Contact: your.email@example.com | Follow us on social media</p>
+    </footer>
+</body>
+</html>
